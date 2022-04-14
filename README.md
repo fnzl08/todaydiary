@@ -133,13 +133,6 @@ Notion link : www.notion.so/Dayily-Diary-e3d8f48497bf4eb28d533bdbbdd2704f
     return source;
     }
 
-
-2. 완벽하지 API 설계**
-
-3. Entity에 ImageUrl List 추가하는 문제**
+2. Entity에 ImageUrl List 추가하는 문제**
     - 바로 삽입할 수 가 없어서 ImageUrl table을 따로 만들고 Diary와 연관관계를 맺어 controller와 service에서 다시 request값을 리스트화 시켜 저장하는 방법을 사용하였다.
 
-4. 용량이 큰 이미지 파일은 업로드 되지 않은 문제.**
-
-# 6. 개인회고록(자유롭게 작성)💬.
-이규진 : https://rbwls44.tistory.com/68?category=1018562
